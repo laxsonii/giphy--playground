@@ -1,0 +1,32 @@
+Giphy App
+
+Have a button for the user to click and a text input
+When the user adds a search parameter in the input field 
+then clicks the button
+the Giphy API will fetch images based on what the user is requesting
+And x number of images will be added to the page
+
+
+
+Steps
+HTML
+Create an input field
+Create a button
+
+Fetch images
+JS
+add an event listener to the button
+Write your fetch function
+
+  Apppend iumages to the page  
+    create a loop
+    create an image html element
+       - add src attribute to image
+    Append images to the parent element
+
+PART 2
+Create an input functionality
+
+https://api.giphy.com/v1/gifs/search?api_key=4qRHV52R4834naAfdqPY7faYTOvD63kX&q=cats&limit=3&offset=0&rating=g&lang=en&bundle=messaging_non_clips
+
+
